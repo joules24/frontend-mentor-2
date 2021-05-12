@@ -303,28 +303,29 @@ ul {
 
     #second-section {
         position: relative;
-        padding: 2rem 35rem 0 25rem;
+        padding: 2rem 35rem 0 15rem;
     }
 
     #info-div {
         width: 40rem;
         height: 25.1rem;
-        padding: 5rem 3rem 2rem;
+        padding: 5rem 2rem 2rem;
         background-color: white;
         position: absolute;
-        top: 45%;
-        left: 68rem;
+        top: 49%;
+        left: 57%;
         text-align: start;
     } 
 
     #info-header {
-        font-size: 2.5rem;
-        padding-left: 5rem;
+        font-size: 2.8rem;
+        padding-left: 2.8rem;
+        letter-spacing: 1px;
     }
 
     #info-text {
-        padding: 0 2.5rem;
-        font-size: 1.2rem;
+        padding: 0 3rem;
+        font-size: 1rem;
     }
 
     #card-header {
@@ -333,14 +334,15 @@ ul {
     }
 
     #card-container {
-        display: flex;
-        padding: 15rem;
+        padding: 0 13rem;
         max-width: 100vw;
+        display: flex;
+        flex-flow: wrap;
     }
     
     .cards {
-        max-width: 200px;
-        height: 250px;
+        max-width: 250px;
+        height: 400px;
         margin: 50px;
         background-size: cover;
     }
